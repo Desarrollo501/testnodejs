@@ -22,6 +22,7 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: 18
+    - name: Change directory to 'functions'
     - name: Install cleaning dependencies
       run: npm install
       
