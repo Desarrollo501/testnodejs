@@ -23,7 +23,7 @@ jobs:
       with:
         node-version: 18
     - name: Install cleaning dependencies
-      run: npm ci
+      run: npm install
       
     - name: Setup Firebase
       uses: w9jds/setup-firebase@v1.0.0
